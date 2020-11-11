@@ -8,6 +8,7 @@
 import UIKit
 import RealmSwift
 
+@available(iOS 13.4, *)
 class DeleteVC: SwipeTableVC {
     
     let realm = try! Realm()

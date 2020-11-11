@@ -1,0 +1,48 @@
+
+/* Class = "UINavigationItem"; title = "DO IT NOW"; ObjectID = "4EY-ot-Hgo"; */
+"4EY-ot-Hgo.title" = "ВАЖНО/СРОЧНО";
+
+/* Class = "UIButton"; normalTitle = "DROP IT"; ObjectID = "4Eu-p0-mpQ"; */
+"4Eu-p0-mpQ.normalTitle" = "НЕ ВАЖНО/НЕ СРОЧНО";
+
+/* Class = "UINavigationItem"; title = "New Task"; ObjectID = "5tX-dI-s7F"; */
+"5tX-dI-s7F.title" = "Новая задача";
+
+/* Class = "UITableViewSection"; headerTitle = "TITLE TASK*"; ObjectID = "9Y6-oO-oVh"; */
+"9Y6-oO-oVh.headerTitle" = "НАИМЕНОВАНИЕ ЗАДАЧИ*";
+
+/* Class = "UIButton"; normalTitle = "DELEGATE"; ObjectID = "Aev-AT-0g0"; */
+"Aev-AT-0g0.normalTitle" = "НЕ ВАЖНО/СРОЧНО";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "Gap-yH-mHm"; */
+"Gap-yH-mHm.normalTitle" = "CANCEL";
+
+/* Class = "UINavigationItem"; title = "DROP IT"; ObjectID = "HWT-79-KIy"; */
+"HWT-79-KIy.title" = "НЕ ВАЖНО/НЕ СРОЧНО";
+
+/* Class = "UITableViewSection"; headerTitle = "DATE"; ObjectID = "Isy-to-Zfc"; */
+"Isy-to-Zfc.headerTitle" = "ДАТА";
+
+/* Class = "UIButton"; normalTitle = "DO IT NOW"; ObjectID = "JeU-dc-ShR"; */
+"JeU-dc-ShR.normalTitle" = "ВАЖНО/СРОЧНО";
+
+/* Class = "UILabel"; text = "SELECTED SECTION"; ObjectID = "MbM-tE-5lu"; */
+"MbM-tE-5lu.text" = "ВЫБЕРИТЕ СЕКЦИЮ";
+
+/* Class = "UINavigationItem"; title = "PLAN IT"; ObjectID = "QUO-mB-Nsa"; */
+"QUO-mB-Nsa.title" = "ВАЖНО/НЕ СРОЧНО";
+
+/* Class = "UITableViewSection"; headerTitle = "SECTION*"; ObjectID = "R9w-OS-aqR"; */
+"R9w-OS-aqR.headerTitle" = "СЕКЦИЯ*";
+
+/* Class = "UITableViewSection"; headerTitle = "NOTE"; ObjectID = "asW-Q4-McI"; */
+"asW-Q4-McI.headerTitle" = "ПРИМЕЧАНИЕ";
+
+/* Class = "UIButton"; normalTitle = "PLAN IT"; ObjectID = "nAn-3t-r7B"; */
+"nAn-3t-r7B.normalTitle" = "ВАЖНО/НЕ СРОЧНО";
+
+/* Class = "UINavigationItem"; title = "M|E"; ObjectID = "r4z-zM-dBl"; */
+"r4z-zM-dBl.title" = "M|E";
+
+/* Class = "UINavigationItem"; title = "DELEGATE"; ObjectID = "rly-1j-RRG"; */
+"rly-1j-RRG.title" = "НЕ ВАЖНО/СРОЧНО";

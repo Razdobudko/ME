@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4AE1FD7DB78152F36D8BB8AE /* Pods_ME.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46CD94B032EB9942F488376 /* Pods_ME.framework */; };
+		D62C87C12559E24E0007A4E2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D62C87C32559E24E0007A4E2 /* Localizable.strings */; };
 		D639B8C62551D6F60082B875 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D639B8C52551D6F60082B875 /* AppDelegate.swift */; };
 		D639B8C82551D6F60082B875 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D639B8C72551D6F60082B875 /* SceneDelegate.swift */; };
 		D639B8CA2551D6F60082B875 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D639B8C92551D6F60082B875 /* HomeViewController.swift */; };
@@ -30,6 +31,8 @@
 		1EED8E76E7BB525198C3F20E /* Pods-ME.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ME.release.xcconfig"; path = "Target Support Files/Pods-ME/Pods-ME.release.xcconfig"; sourceTree = "<group>"; };
 		B9ABBB9A50EC987A1192DD10 /* Pods-ME.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ME.debug.xcconfig"; path = "Target Support Files/Pods-ME/Pods-ME.debug.xcconfig"; sourceTree = "<group>"; };
 		C46CD94B032EB9942F488376 /* Pods_ME.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ME.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62C87C22559E24E0007A4E2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D62C87C52559E2540007A4E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D639B8C22551D6F60082B875 /* ME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D639B8C52551D6F60082B875 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D639B8C72551D6F60082B875 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +42,8 @@
 		D639B8D12551D6F90082B875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D639B8D32551D6F90082B875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D67147792552FA7E008D2429 /* CustomBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBtn.swift; sourceTree = "<group>"; };
+		D6A571A22559B80A00DF5021 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		D6A571A32559B80A00DF5021 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		D6F06AFC2552078D001BBE69 /* DetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
 		D6F06AFF25520A7C001BBE69 /* Realm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
 		D6F06B0425520AA4001BBE69 /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
@@ -107,6 +112,7 @@
 				D639B8CE2551D6F90082B875 /* Assets.xcassets */,
 				D639B8D02551D6F90082B875 /* LaunchScreen.storyboard */,
 				D639B8D32551D6F90082B875 /* Info.plist */,
+				D62C87C32559E24E0007A4E2 /* Localizable.strings */,
 			);
 			path = ME;
 			sourceTree = "<group>";
@@ -196,6 +202,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = D639B8B92551D6F60082B875;
 			productRefGroup = D639B8C32551D6F60082B875 /* Products */;
@@ -213,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D639B8D22551D6F90082B875 /* LaunchScreen.storyboard in Resources */,
+				D62C87C12559E24E0007A4E2 /* Localizable.strings in Resources */,
 				D639B8CF2551D6F90082B875 /* Assets.xcassets in Resources */,
 				D639B8CD2551D6F60082B875 /* Main.storyboard in Resources */,
 			);
@@ -286,10 +294,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		D62C87C32559E24E0007A4E2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D62C87C22559E24E0007A4E2 /* ru */,
+				D62C87C52559E2540007A4E2 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		D639B8CB2551D6F60082B875 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D639B8CC2551D6F60082B875 /* Base */,
+				D6A571A22559B80A00DF5021 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -298,6 +316,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D639B8D12551D6F90082B875 /* Base */,
+				D6A571A32559B80A00DF5021 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -309,6 +328,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -356,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -370,6 +390,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -411,7 +432,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -428,12 +449,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.1.1;
 				DEVELOPMENT_TEAM = X8VM9X4JZM;
 				INFOPLIST_FILE = ME/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.veranika.ME;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -448,12 +471,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.1.1;
 				DEVELOPMENT_TEAM = X8VM9X4JZM;
 				INFOPLIST_FILE = ME/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.veranika.ME;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

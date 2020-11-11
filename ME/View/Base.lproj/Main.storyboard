@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hYG-Vf-F0M">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -97,22 +98,22 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SELECTED SECTION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MbM-tE-5lu">
-                                                    <rect key="frame" x="10" y="5" width="394" height="22.5"/>
-                                                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                                                    <rect key="frame" x="10" y="5" width="394" height="19"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="yv5-yS-ZWv">
-                                                    <rect key="frame" x="5" y="26" width="404" height="69"/>
+                                                    <rect key="frame" x="5" y="30" width="404" height="65"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="blD-rb-1EV">
-                                                            <rect key="frame" x="0.0" y="0.0" width="199.5" height="69"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="199.5" height="65"/>
                                                             <subviews>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JeU-dc-ShR" customClass="CustomBtn" customModule="ME" customModuleProvider="target">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="199.5" height="32"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="199.5" height="30"/>
                                                                     <color key="backgroundColor" red="0.14356726410000001" green="0.090916059909999999" blue="0.058804668490000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
-                                                                    <state key="normal" title="DO NOW">
+                                                                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="16"/>
+                                                                    <state key="normal" title="DO IT NOW">
                                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     </state>
                                                                     <connections>
@@ -120,9 +121,9 @@
                                                                     </connections>
                                                                 </button>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aev-AT-0g0" customClass="CustomBtn" customModule="ME" customModuleProvider="target">
-                                                                    <rect key="frame" x="0.0" y="37" width="199.5" height="32"/>
+                                                                    <rect key="frame" x="0.0" y="35" width="199.5" height="30"/>
                                                                     <color key="backgroundColor" red="0.42847305540000002" green="0.33867287639999999" blue="0.27840000390000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                                                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="16"/>
                                                                     <state key="normal" title="DELEGATE">
                                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     </state>
@@ -133,13 +134,13 @@
                                                             </subviews>
                                                         </stackView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="9ya-3a-HlW">
-                                                            <rect key="frame" x="204.5" y="0.0" width="199.5" height="69"/>
+                                                            <rect key="frame" x="204.5" y="0.0" width="199.5" height="65"/>
                                                             <subviews>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAn-3t-r7B" customClass="CustomBtn" customModule="ME" customModuleProvider="target">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="199.5" height="32"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="199.5" height="30"/>
                                                                     <color key="backgroundColor" red="0.2957104445" green="0.2207246125" blue="0.17252296210000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
-                                                                    <state key="normal" title="SCHEDULE">
+                                                                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="16"/>
+                                                                    <state key="normal" title="PLAN IT">
                                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     </state>
                                                                     <connections>
@@ -147,10 +148,10 @@
                                                                     </connections>
                                                                 </button>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Eu-p0-mpQ" customClass="CustomBtn" customModule="ME" customModuleProvider="target">
-                                                                    <rect key="frame" x="0.0" y="37" width="199.5" height="32"/>
+                                                                    <rect key="frame" x="0.0" y="35" width="199.5" height="30"/>
                                                                     <color key="backgroundColor" red="0.47954732179999998" green="0.39341884849999997" blue="0.34114876389999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
-                                                                    <state key="normal" title="DELETE">
+                                                                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="16"/>
+                                                                    <state key="normal" title="DROP IT">
                                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     </state>
                                                                     <connections>
@@ -204,15 +205,15 @@
                             </tableViewSection>
                             <tableViewSection headerTitle="NOTE" id="asW-Q4-McI">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="tX6-e0-pna">
-                                        <rect key="frame" x="0.0" y="327.5" width="414" height="100"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="60" id="tX6-e0-pna">
+                                        <rect key="frame" x="0.0" y="327.5" width="414" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tX6-e0-pna" id="8Z9-ah-C6w">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EnL-da-QaG">
-                                                    <rect key="frame" x="10" y="0.0" width="394" height="100"/>
+                                                    <rect key="frame" x="10" y="0.0" width="394" height="60"/>
                                                     <color key="backgroundColor" red="0.18311288949999999" green="0.14558923239999999" blue="0.1254790425" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -233,7 +234,7 @@
                             <tableViewSection headerTitle="DATE" id="Isy-to-Zfc">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="60" id="HTJ-ts-3kT">
-                                        <rect key="frame" x="0.0" y="483.5" width="414" height="60"/>
+                                        <rect key="frame" x="0.0" y="443.5" width="414" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HTJ-ts-3kT" id="qh1-Qw-Cpj">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
@@ -260,7 +261,7 @@
                             <tableViewSection id="RQG-cl-hXI">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="60" id="Ldl-7D-f2f">
-                                        <rect key="frame" x="0.0" y="579.5" width="414" height="60"/>
+                                        <rect key="frame" x="0.0" y="539.5" width="414" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ldl-7D-f2f" id="ADm-Ng-P33">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
@@ -295,7 +296,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="New Task" id="5tX-dI-s7F">
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="wwK-Y5-YsZ">
+                        <barButtonItem key="rightBarButtonItem" title="SAVE" id="wwK-Y5-YsZ">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="saveBtnPressed:" destination="98f-xY-fH1" id="Q6s-CC-bEp"/>
@@ -341,7 +342,7 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="93.75"/>
         </scene>
-        <!--DO NOW-->
+        <!--DO IT NOW-->
         <scene sceneID="Nur-Il-kwz">
             <objects>
                 <tableViewController id="bMz-hX-JHN" customClass="DoNowTableVC" customModule="ME" customModuleProvider="target" sceneMemberID="viewController">
@@ -365,13 +366,13 @@
                             <outlet property="delegate" destination="bMz-hX-JHN" id="eDx-Yf-UTw"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="DO NOW" id="4EY-ot-Hgo"/>
+                    <navigationItem key="navigationItem" title="DO IT NOW" id="4EY-ot-Hgo"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4nE-Ir-B1q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="596" y="764"/>
         </scene>
-        <!--SCHEDULE-->
+        <!--PLAN IT-->
         <scene sceneID="Nou-wG-oqi">
             <objects>
                 <tableViewController id="XQn-hE-Qf9" customClass="ScheduleVC" customModule="ME" customModuleProvider="target" sceneMemberID="viewController">
@@ -395,7 +396,7 @@
                             <outlet property="delegate" destination="XQn-hE-Qf9" id="VKO-up-Rri"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="SCHEDULE" id="QUO-mB-Nsa"/>
+                    <navigationItem key="navigationItem" title="PLAN IT" id="QUO-mB-Nsa"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nGb-lH-kxn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -431,7 +432,7 @@
             </objects>
             <point key="canvasLocation" x="2414" y="778"/>
         </scene>
-        <!--DELETE-->
+        <!--DROP IT-->
         <scene sceneID="dfr-56-84r">
             <objects>
                 <tableViewController id="ZT6-Mh-d8u" customClass="DeleteVC" customModule="ME" customModuleProvider="target" sceneMemberID="viewController">
@@ -455,7 +456,7 @@
                             <outlet property="delegate" destination="ZT6-Mh-d8u" id="evV-RD-cS1"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="DELETE" id="HWT-79-KIy"/>
+                    <navigationItem key="navigationItem" title="DROP IT" id="HWT-79-KIy"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XGx-9J-F2n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -471,7 +472,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.14356726410000001" green="0.090916059909999999" blue="0.058804668490000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <textAttributes key="titleTextAttributes">
-                            <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                            <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="14"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
                     </navigationBar>
@@ -495,7 +496,7 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" red="0.26473683120000002" green="0.2048658133" blue="0.1646849215" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <textAttributes key="titleTextAttributes">
-                            <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                            <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="14"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
                     </navigationBar>
@@ -519,7 +520,7 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" red="0.42847305540000002" green="0.33867287639999999" blue="0.27840000390000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <textAttributes key="titleTextAttributes">
-                            <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                            <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="14"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
                     </navigationBar>
@@ -543,7 +544,7 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" red="0.47954732179999998" green="0.39341884849999997" blue="0.34114876389999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <textAttributes key="titleTextAttributes">
-                            <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                            <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="14"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
                     </navigationBar>

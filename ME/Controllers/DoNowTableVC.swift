@@ -8,6 +8,7 @@
 import UIKit
 import RealmSwift
 
+@available(iOS 13.4, *)
 class DoNowTableVC: SwipeTableVC {
     
     let realm = try! Realm()

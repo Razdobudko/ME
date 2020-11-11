@@ -19,6 +19,7 @@ class SwipeTableVC: UITableViewController, SwipeTableViewCellDelegate {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as! SwipeTableViewCell
+        cell.textLabel?.font = UIFont.systemFont(ofSize: 14)
         cell.delegate = self
 
         return cell
